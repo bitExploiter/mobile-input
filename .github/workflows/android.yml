@@ -15,7 +15,7 @@ on:
       - published
 
 concurrency:
-  group: ci-${{github.ref}}-android
+  group: macOS
   cancel-in-progress: true
 
 jobs:
